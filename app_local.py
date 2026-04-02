@@ -138,7 +138,7 @@ def seed_db():
 
 # ─── AUTH ─────────────────────────────────────────────────────────────────────
 
-USERS = ['Isac','Otavio','Isadora']
+USERS = ['Isac','Isadora']
 
 @app.route('/')
 def index(): return render_template('index.html')
