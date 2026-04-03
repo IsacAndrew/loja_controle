@@ -2248,7 +2248,7 @@ async function deleteFileItem(id) {
 function filesNewFolder() {
   openModal('Nova Pasta', `
     <div class="field-group"><div class="field-label">Nome da pasta</div>
-    <input class="input-field" id="new-folder-name" placeholder="Ex: Fotos 2024"></div>
+    <input class="input-field" id="new-folder-name" placeholder=" "></div>
   `, [
     { label: 'Cancelar', cls: 'btn-ghost', fn: closeModal },
     { label: 'Criar', cls: 'btn-primary', fn: async () => {
